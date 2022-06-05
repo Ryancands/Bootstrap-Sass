@@ -1,0 +1,27 @@
+// custom variables
+
+$primary: #6b7280;
+$secondary: #111827;
+$success: #f1f1f2;
+$info:#626D72;
+$warning:#ffee00;
+$danger: red;
+$light: #fff;
+$dark: rgb(46, 46, 46);
+
+body::before {
+    display: block;
+    content: "";
+    height: 55px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+
+
+@import'../node_modules/bootstrap/scss/bootstrap'
+
